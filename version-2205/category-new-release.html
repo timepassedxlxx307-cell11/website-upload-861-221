@@ -1,0 +1,2057 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit">
+    <meta name="robots" content="index,follow">
+    <title>年度新片 - 影视在线</title>
+    <meta name="description" content="近年新片与新剧集中展示，方便快速发现最新热门内容。 影视在线提供高清流畅的电影电视剧在线观看体验。">
+    <meta name="keywords" content="影视在线,高清电影,电视剧在线观看,免费影视,在线播放,剧情片,爱情片,动作片,综艺节目,视频播放,影视资源,电影网站,高清视频,年度新片">
+    <link rel="stylesheet" href="./assets/original.css">
+    <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="./index.html" aria-label="影视在线">
+                <span class="brand-icon">▶</span>
+                <span class="brand-text">
+                    <strong>影视在线</strong>
+                    <em>高清电影电视剧在线观看平台</em>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                <a class="nav-link" href="./index.html">首页</a>
+                <a class="nav-link is-active" href="./categories.html">分类</a>
+                <a class="nav-link" href="./ranking.html">排行榜</a>
+                <a class="nav-link" href="./search.html">搜索</a>
+            </nav>
+            <form class="header-search" action="./search.html" data-search-form>
+                <input type="search" name="q" placeholder="搜索片名、题材、地区" aria-label="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+            <button class="menu-button" type="button" data-menu-button aria-label="打开导航">☰</button>
+        </div>
+        <nav class="mobile-nav" data-mobile-nav aria-label="移动导航">
+                <a class="mobile-link" href="./index.html">首页</a>
+                <a class="mobile-link is-active" href="./categories.html">分类</a>
+                <a class="mobile-link" href="./ranking.html">排行榜</a>
+                <a class="mobile-link" href="./search.html">搜索</a>
+            <form class="mobile-search" action="./search.html" data-search-form>
+                <input type="search" name="q" placeholder="搜索影片">
+                <button type="submit">搜索</button>
+            </form>
+        </nav>
+    </header>
+    <main>
+        <section class="page-hero">
+            <div class="page-title">
+                <div class="breadcrumb">
+                    <a href="./index.html">首页</a>
+                    <span>/</span>
+                    <a href="./categories.html">分类</a>
+                </div>
+                <h1>年度新片</h1>
+                <p>近年新片与新剧集中展示，方便快速发现最新热门内容。</p>
+            </div>
+        </section>
+        <section class="filter-panel">
+            <div class="filter-grid">
+                <label>
+                    <span>关键词</span>
+                    <input id="movieSearch" type="search" placeholder="输入片名、题材、地区">
+                </label>
+                <label>
+                    <span>题材</span>
+                    <select id="genreFilter">
+                        <option value="">全部题材</option>
+                    <option value="悬疑">悬疑</option>
+                    <option value="推理">推理</option>
+                    <option value="奇幻">奇幻</option>
+                    <option value="剧情">剧情</option>
+                    <option value="犯罪">犯罪</option>
+                    <option value="爱情">爱情</option>
+                    <option value="运动">运动</option>
+                    <option value="青春">青春</option>
+                    <option value="喜剧">喜剧</option>
+                    <option value="科幻">科幻</option>
+                    <option value="动作">动作</option>
+                    <option value="动画">动画</option>
+                    <option value="儿童">儿童</option>
+                    <option value="黑色幽默">黑色幽默</option>
+                    <option value="纪录">纪录</option>
+                    <option value="传记">传记</option>
+                    <option value="黑色喜剧">黑色喜剧</option>
+                    <option value="冒险">冒险</option>
+                    <option value="同性">同性</option>
+                    <option value="音乐">音乐</option>
+                    <option value="职场">职场</option>
+                    <option value="社会">社会</option>
+                    <option value="惊悚">惊悚</option>
+                    <option value="农村">农村</option>
+                    <option value="动作喜剧">动作喜剧</option>
+                    <option value="政治">政治</option>
+                    <option value="灾难">灾难</option>
+                    <option value="家庭">家庭</option>
+                    <option value="武侠">武侠</option>
+                    <option value="历史">历史</option>
+                    </select>
+                </label>
+                <label>
+                    <span>年份</span>
+                    <select id="yearFilter">
+                        <option value="">全部年份</option>
+                    <option value="2030">2030</option>
+                    <option value="2029">2029</option>
+                    <option value="2028">2028</option>
+                    <option value="2027">2027</option>
+                    <option value="2026">2026</option>
+                    <option value="2025">2025</option>
+                    <option value="2024">2024</option>
+                    <option value="2023">2023</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                    <option value="2012">2012</option>
+                    <option value="2011">2011</option>
+                    <option value="2010">2010</option>
+                    <option value="2009">2009</option>
+                    <option value="2008">2008</option>
+                    <option value="2007">2007</option>
+                    <option value="2006">2006</option>
+                    <option value="2005">2005</option>
+                    <option value="2004">2004</option>
+                    <option value="2003">2003</option>
+                    <option value="2002">2002</option>
+                    <option value="2001">2001</option>
+                    </select>
+                </label>
+                <label>
+                    <span>地区</span>
+                    <select id="regionFilter">
+                        <option value="">全部地区</option>
+                    <option value="中东/法国">中东/法国</option>
+                    <option value="中国">中国</option>
+                    <option value="中国内地">中国内地</option>
+                    <option value="中国台湾">中国台湾</option>
+                    <option value="中国台湾/泰国">中国台湾/泰国</option>
+                    <option value="中国大陆">中国大陆</option>
+                    <option value="中国大陆(网络剧)">中国大陆(网络剧)</option>
+                    <option value="中国大陆/冰岛">中国大陆/冰岛</option>
+                    <option value="中国大陆/缅甸">中国大陆/缅甸</option>
+                    <option value="中国大陆/韩国">中国大陆/韩国</option>
+                    <option value="中国香港">中国香港</option>
+                    <option value="中国香港/中国大陆">中国香港/中国大陆</option>
+                    <option value="中国香港/台湾">中国香港/台湾</option>
+                    <option value="中国香港/广东">中国香港/广东</option>
+                    <option value="中国香港/日本">中国香港/日本</option>
+                    <option value="中国香港/泰国">中国香港/泰国</option>
+                    <option value="丹麦">丹麦</option>
+                    <option value="丹麦/德国">丹麦/德国</option>
+                    <option value="丹麦/瑞典">丹麦/瑞典</option>
+                    <option value="以色列">以色列</option>
+                    <option value="以色列/美国">以色列/美国</option>
+                    <option value="以色列/英国">以色列/英国</option>
+                    <option value="伊朗">伊朗</option>
+                    <option value="伊朗,法国">伊朗,法国</option>
+                    <option value="伊朗/法国">伊朗/法国</option>
+                    <option value="俄罗斯">俄罗斯</option>
+                    <option value="冰岛/丹麦">冰岛/丹麦</option>
+                    <option value="加拿大">加拿大</option>
+                    <option value="加拿大/法国">加拿大/法国</option>
+                    <option value="匈牙利">匈牙利</option>
+                    <option value="北欧">北欧</option>
+                    <option value="北欧/冰岛">北欧/冰岛</option>
+                    <option value="华语">华语</option>
+                    <option value="印度">印度</option>
+                    <option value="印度/法国">印度/法国</option>
+                    <option value="印度/英国">印度/英国</option>
+                    <option value="叙利亚/英国">叙利亚/英国</option>
+                    <option value="台湾">台湾</option>
+                    <option value="哈萨克斯坦">哈萨克斯坦</option>
+                    <option value="土耳其">土耳其</option>
+                    </select>
+                </label>
+            </div>
+
+        </section>
+        <section class="section-block">
+            <div class="container">
+                <div class="movie-grid dense-grid">
+<article class="movie-card js-card" data-title="奎氏兄弟" data-region="英国" data-genre="悬疑/奇幻 神秘学 双子 继承 哥特" data-year="2027" data-type="电影">
+    <a class="movie-card-link" href="./movie-282.html" aria-label="观看奎氏兄弟">
+        <span class="poster-frame" style="--cover: url('./132.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">94分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>奎氏兄弟</strong>
+            <em>一对沉默寡言的双胞胎兄弟继承古宅后,发现地下室锁着一个会呼吸的家族秘密。</em>
+            <span class="meta-row">
+                <span>2027</span>
+                <span>英国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="食人族时代" data-region="巴西" data-genre="科幻/恐怖/社会讽刺 反乌托邦 资本寓言 人体加工" data-year="2027" data-type="电视剧 (8集)">
+    <a class="movie-card-link" href="./movie-1733.html" aria-label="观看食人族时代">
+        <span class="poster-frame" style="--cover: url('./83.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">33集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>食人族时代</strong>
+            <em>未来的超级城市里,穷人每月可以自愿出售自己的一块肉给富人餐厅,换取消债。</em>
+            <span class="meta-row">
+                <span>2027</span>
+                <span>巴西</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="堡垒第一季" data-region="中国大陆" data-genre="悬疑,犯罪,动作 卧底 高智商犯罪 密闭空间" data-year="2027" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1402.html" aria-label="观看堡垒第一季">
+        <span class="poster-frame" style="--cover: url('./52.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">10集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>堡垒第一季</strong>
+            <em>一座与世隔绝的监狱“堡垒”里,新来的狱警发现所有犯人都在模仿一个不存在的人。</em>
+            <span class="meta-row">
+                <span>2027</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="失踪事件之一" data-region="韩国" data-genre="悬疑,犯罪,惊悚 单元剧 失踪人口 社会派 反转集" data-year="2026" data-type="剧集">
+    <a class="movie-card-link" href="./movie-633.html" aria-label="观看失踪事件之一">
+        <span class="poster-frame" style="--cover: url('./33.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">25集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>失踪事件之一</strong>
+            <em>一个女孩失踪了,警方找到嫌疑人,但嫌疑人的不在场证明是——他当时在杀另一个人。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="操纵" data-region="韩国" data-genre="悬疑,犯罪,剧情 舆论操控 新闻黑幕 反转 高能 社会写实" data-year="2026" data-type="剧集">
+    <a class="movie-card-link" href="./movie-3.html" aria-label="观看操纵">
+        <span class="poster-frame" style="--cover: url('./3.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">11集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>操纵</strong>
+            <em>一个天才数据分析师和一名草根记者联手,揭发一个通过热搜操控韩国社会的神秘组织。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="哎咕岛消失的舔甜歌姬" data-region="日本" data-genre="奇幻、悬疑、音乐 异闻带 偶像失踪 怪谈 治愈" data-year="2026" data-type="TV剧集">
+    <a class="movie-card-link" href="./movie-1059.html" aria-label="观看哎咕岛消失的舔甜歌姬">
+        <span class="poster-frame" style="--cover: url('./9.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">31集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>哎咕岛消失的舔甜歌姬</strong>
+            <em>哎咕岛上以歌声治愈万物的歌姬突然消失,整个岛屿的甜蜜开始腐烂。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>日本</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="无人能敌" data-region="美国" data-genre="动作/犯罪 硬汉 复仇 神秘组织 肉搏" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-638.html" aria-label="观看无人能敌">
+        <span class="poster-frame" style="--cover: url('./38.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">90分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>无人能敌</strong>
+            <em>一个被注销身份的前特工,发现想要刺杀他的神秘组织竟然是他自己创立的。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="极速盗车" data-region="美国" data-genre="动作犯罪飙车 偷车团队 智能跑车 背叛与复仇 多线叙事" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-358.html" aria-label="观看极速盗车">
+        <span class="poster-frame" style="--cover: url('./58.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">98分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>极速盗车</strong>
+            <em>顶尖偷车团队接了一单价值五千万的定制超跑,得手后发现车上装着足以引发世界大战的芯片。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="黑洞浩劫" data-region="美国" data-genre="科幻/灾难/动作 黑洞 末日 太空 硬核科幻 逃生" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-1061.html" aria-label="观看黑洞浩劫">
+        <span class="poster-frame" style="--cover: url('./11.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">123分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>黑洞浩劫</strong>
+            <em>意外制造出微型黑洞的科学家,必须在24小时内将它送入太阳,否则地球将被撕碎。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="逆流而上的你" data-region="中国大陆" data-genre="剧情/家庭/励志 中年重启 女性成长 离婚 创业" data-year="2026" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1977.html" aria-label="观看逆流而上的你">
+        <span class="poster-frame" style="--cover: url('./27.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">25集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>逆流而上的你</strong>
+            <em>42岁的单亲妈妈带着高中女儿回到农村,决定逆流开办全村第一家养老院。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="小西湖" data-region="中国大陆" data-genre="家庭伦理 拆迁 邻里关系 地域文化 温情" data-year="2026" data-type="剧集">
+    <a class="movie-card-link" href="./movie-438.html" aria-label="观看小西湖">
+        <span class="poster-frame" style="--cover: url('./138.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">26集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>小西湖</strong>
+            <em>南京老城南小西湖片区面临改造,三代同堂的马家为了一个“拆”字,分崩离析又最终弥合。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="电影卡车野郎·故乡特急便" data-region="日本" data-genre="剧情/公路 卡车司机 家乡 温情 北海道 遗愿" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-794.html" aria-label="观看电影卡车野郎·故乡特急便">
+        <span class="poster-frame" style="--cover: url('./44.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">126分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>电影卡车野郎·故乡特急便</strong>
+            <em>一对陌生男女结伴开卡车横穿日本,为逝者送达最后一份“故乡便当”。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>日本</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="我为猪狂" data-region="中国大陆" data-genre="喜剧、剧情、黑色幽默 农村 创业 生态养殖 荒诞" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-1146.html" aria-label="观看我为猪狂">
+        <span class="poster-frame" style="--cover: url('./96.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">94分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>我为猪狂</strong>
+            <em>为了拿到拆迁款,一个城市程序员回村养猪,结果发现这头猪竟然能预测股票涨跌。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="大同世界" data-region="中国大陆" data-genre="剧情/科幻 乌托邦 人工智能 人性拷问 集体主义" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-30.html" aria-label="观看大同世界">
+        <span class="poster-frame" style="--cover: url('./30.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">106分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>大同世界</strong>
+            <em>在一个人人“平等”的算法城市里,一名修理工发现了幸福指数背后被删除的记忆黑洞。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="说正经的,宝贝" data-region="中国大陆" data-genre="喜剧、爱情 假戏真做 脱口秀 职场恋爱 女性视角 嘴硬心软" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-1367.html" aria-label="观看说正经的,宝贝">
+        <span class="poster-frame" style="--cover: url('./17.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">105分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>说正经的,宝贝</strong>
+            <em>金牌离婚律师为了拿下大客户,不得不假装追求公司最毒舌的脱口秀女演员。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="孤帆灭枭" data-region="中国香港" data-genre="犯罪,动作,悬疑 独行杀手 游艇 复仇 黑色电影" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-1721.html" aria-label="观看孤帆灭枭">
+        <span class="poster-frame" style="--cover: url('./71.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">135分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>孤帆灭枭</strong>
+            <em>一个被诬陷杀妻的退役狙击手,驾驶帆船在大海上逐个猎杀真正的凶手——五名政商大佬。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="命中注定" data-region="中国大陆" data-genre="爱情,奇幻 命运 穿越 因果 甜虐" data-year="2026" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-54.html" aria-label="观看命中注定">
+        <span class="poster-frame" style="--cover: url('./54.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">34集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>命中注定</strong>
+            <em>一部能改写恋人命运的“姻缘簿”,让一对情侣在七世轮回中不断相遇又错过。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="公民哈维尔" data-region="西班牙" data-genre="剧情/悬疑 身份盗窃 小人物 荒诞" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-1109.html" aria-label="观看公民哈维尔">
+        <span class="poster-frame" style="--cover: url('./59.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">123分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>公民哈维尔</strong>
+            <em>一个清洁工捡到了市长的身份证,随后他发现整座城市的人都开始叫他“市长先生”。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>西班牙</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="命悬800公里" data-region="中国大陆" data-genre="动作/犯罪/公路 极限救援 器官转运 黑帮拦截 生死时速 山路飙车" data-year="2026" data-type="电影">
+    <a class="movie-card-link" href="./movie-490.html" aria-label="观看命悬800公里">
+        <span class="poster-frame" style="--cover: url('./40.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">110分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>命悬800公里</strong>
+            <em>800公里救命之路,一名快递员和一颗心脏,必须在10小时内对抗整个地下黑市。</em>
+            <span class="meta-row">
+                <span>2026</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="爱你2025" data-region="中国大陆" data-genre="爱情/科幻/悬疑 元宇宙 情感纠葛 悬疑爱情" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1055.html" aria-label="观看爱你2025">
+        <span class="poster-frame" style="--cover: url('./5.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">129分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>爱你2025</strong>
+            <em>2025年,一款能让人在元宇宙中“重活一世”的游戏,让一对分手五年的恋人发现彼此从未放下。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="叛影浪客" data-region="中国香港" data-genre="动作,犯罪,悬疑 杀手 背叛 双重身份 霓虹美学" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-423.html" aria-label="观看叛影浪客">
+        <span class="poster-frame" style="--cover: url('./123.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">121分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>叛影浪客</strong>
+            <em>一名顶级杀手在最后一次任务中发现自己只是组织清洗的棋子,被迫与追捕自己的年轻女警联手。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="驱魔13" data-region="韩国" data-genre="恐怖/惊悚 驱魔 数字诅咒 反转 心理恐怖 宗教" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-564.html" aria-label="观看驱魔13">
+        <span class="poster-frame" style="--cover: url('./114.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">100分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>驱魔13</strong>
+            <em>13次驱魔失败后,神父发现恶魔的目标不是附身,而是让他自愿献出灵魂。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="爱欲来袭时" data-region="韩国" data-genre="情色,剧情 欲望 中年危机 换妻 反思" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-775.html" aria-label="观看爱欲来袭时">
+        <span class="poster-frame" style="--cover: url('./25.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">89分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>爱欲来袭时</strong>
+            <em>三对陷入倦怠期的中产夫妻,在一次别墅派对中玩起了“换伴侣”游戏,却引发了连锁的情感海啸。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="女力拳开" data-region="中国香港/中国大陆" data-genre="动作/体育/励志 女子拳击 中年逆袭 单亲妈妈 硬核格斗" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1481.html" aria-label="观看女力拳开">
+        <span class="poster-frame" style="--cover: url('./131.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">135分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>女力拳开</strong>
+            <em>42岁的单亲清洁工为给自闭症儿子治病,报名参加全港自由搏击锦标赛,对手全是20出头的专业女拳手。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港/中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="一夜恩情粤语" data-region="中国香港" data-genre="爱情/剧情 粤语片 一夜情 命运" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1201.html" aria-label="观看一夜恩情粤语">
+        <span class="poster-frame" style="--cover: url('./1.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">95分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>一夜恩情粤语</strong>
+            <em>一夜缠绵后,她留下一张纸条消失二十年,他找遍了全世界的每个角落。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="你的名字叫蔷薇" data-region="中国" data-genre="剧情/家庭/女性 失散 顶替人生 姐妹 年代" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1202.html" aria-label="观看你的名字叫蔷薇">
+        <span class="poster-frame" style="--cover: url('./2.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">34集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>你的名字叫蔷薇</strong>
+            <em>1980年两个女婴在暴雨夜被抱错,三十年后高材生发现自己的人生被“妹妹”偷走了。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="森林恶魔" data-region="日本" data-genre="恐怖/民俗 都市传说 山林怪谈 本土恐怖 仪式" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1273.html" aria-label="观看森林恶魔">
+        <span class="poster-frame" style="--cover: url('./73.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">119分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>森林恶魔</strong>
+            <em>一群大学生进入青木原树海探险,触犯了当地禁忌,唤醒了以“模仿”为猎杀方式的恶魔。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>日本</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="天桥星梦" data-region="中国大陆" data-genre="剧情/时尚 模特 职场 潜规则 逆袭" data-year="2025" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-1976.html" aria-label="观看天桥星梦">
+        <span class="poster-frame" style="--cover: url('./26.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">24集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>天桥星梦</strong>
+            <em>小镇女孩闯入超模圈,发现光鲜T台背后是一场关于身体的肮脏交易。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="色情架步" data-region="中国香港" data-genre="犯罪,剧情 红灯区 卧底 女性群像 港产片 黑色电影" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1911.html" aria-label="观看色情架步">
+        <span class="poster-frame" style="--cover: url('./111.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">121分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>色情架步</strong>
+            <em>重庆大厦暗巷里,站街女们用暗号和毛线编织了一张保护彼此与猎杀渣男的安全网。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="咸湿眼" data-region="中国台湾" data-genre="剧情,同性 盲人 按摩师 禁忌之恋 潮湿南方" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-578.html" aria-label="观看咸湿眼">
+        <span class="poster-frame" style="--cover: url('./128.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">102分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>咸湿眼</strong>
+            <em>盲人按摩师从客人的体味中,辨认出害死自己恋人的凶手。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国台湾</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="对不起,我爱你,谢谢你" data-region="韩国" data-genre="剧情/家庭 临终告白 三封遗书 催泪炸弹" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1843.html" aria-label="观看对不起,我爱你,谢谢你">
+        <span class="poster-frame" style="--cover: url('./43.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">125分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>对不起,我爱你,谢谢你</strong>
+            <em>一位母亲在生命最后三个月,给三个人写了三封信:对不起的是丈夫,爱的是儿子,谢谢的是当年被她抛弃的女儿。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="算死师" data-region="中国香港" data-genre="悬疑,犯罪 命理 精算 完美犯罪 反套路" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-719.html" aria-label="观看算死师">
+        <span class="poster-frame" style="--cover: url('./119.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">129分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>算死师</strong>
+            <em>一个精通数学概率和八字命理的天才,专为想自杀的人设计“意外死亡”,直到他遇到了一个命太硬的人。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="猛鬼舔人2" data-region="美国" data-genre="恐怖/喜剧 邪典 万圣节 恶鬼复活" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-158.html" aria-label="观看猛鬼舔人2">
+        <span class="poster-frame" style="--cover: url('./8.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">90分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>猛鬼舔人2</strong>
+            <em>万圣节夜晚,一群青少年在废弃殡仪馆玩通灵游戏,不小心召唤出专舔活人灵魂的饿鬼。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="就系广告咁简单" data-region="中国香港" data-genre="剧情/职场 广告业 粤语 创意 黑色幽默" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-650.html" aria-label="观看就系广告咁简单">
+        <span class="poster-frame" style="--cover: url('./50.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">14集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>就系广告咁简单</strong>
+            <em>一间快倒闭的香港老字号广告公司,靠“帮客户实现最不要脸的愿望”起死回生。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="谎心爱漫游" data-region="中国香港" data-genre="爱情,剧情 公路 谎言 治愈 浪子" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1143.html" aria-label="观看谎心爱漫游">
+        <span class="poster-frame" style="--cover: url('./93.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">121分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>谎心爱漫游</strong>
+            <em>职业女骗子搭上落魄渣男,两人一路互相欺骗,却在中缅边境的赌场里交换了真心。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="追魂夜合花" data-region="中国香港" data-genre="恐怖/悬疑/犯罪 鬼魂 连环杀手 夜合花 复仇" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-722.html" aria-label="观看追魂夜合花">
+        <span class="poster-frame" style="--cover: url('./122.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">102分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>追魂夜合花</strong>
+            <em>每当夜合花开,女鬼就会索命,而私家侦探发现每个死者都曾在20年前参与过一场秘密审判。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="红辣椒俱乐部" data-region="韩国" data-genre="剧情,犯罪,动作 复仇女神 黑色电影 暴力美学 底层反抗" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1847.html" aria-label="观看红辣椒俱乐部">
+        <span class="poster-frame" style="--cover: url('./47.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">105分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>红辣椒俱乐部</strong>
+            <em>四个被生活逼入绝境的女人,开了一家只卖“复仇”的地下俱乐部。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="中国式离婚" data-region="中国" data-genre="剧情,家庭,伦理 婚姻 现实题材 人性 代际冲突" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1709.html" aria-label="观看中国式离婚">
+        <span class="poster-frame" style="--cover: url('./59.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">9集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>中国式离婚</strong>
+            <em>三对处于不同年龄段的夫妻同时走进民政局离婚处,在30天冷静期内,他们被迫重新审视自己“中国式”的捆绑与伤害。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="金色黄昏" data-region="中国大陆" data-genre="剧情,家庭,文艺 养老 父子矛盾 阿尔茨海默症 和解" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1077.html" aria-label="观看金色黄昏">
+        <span class="poster-frame" style="--cover: url('./27.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">91分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>金色黄昏</strong>
+            <em>六十岁的儿子把八十岁患阿尔茨海默症的父亲接回家,发现父亲记忆里只有自己童年犯过的错。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="猎象通辑令" data-region="中国大陆" data-genre="动作,犯罪,悬疑 跨国追捕 盗猎 丛林激战 保护动物 硬汉" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1430.html" aria-label="观看猎象通辑令">
+        <span class="poster-frame" style="--cover: url('./80.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">114分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>猎象通辑令</strong>
+            <em>为了追捕一对象牙盗猎团伙,退役特种兵与当地女警官在东南亚雨林中展开了一场“猎象”与“反猎象”的殊死较量。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="恐惧岛" data-region="美国" data-genre="恐怖惊悚 生存游戏 心理恐惧 实体化" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-308.html" aria-label="观看恐惧岛">
+        <span class="poster-frame" style="--cover: url('./8.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">132分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>恐惧岛</strong>
+            <em>七个有不同恐惧症的人被扔到一座孤岛上,岛上的一切都会将他们最害怕的东西实体化,唯有直面恐惧才能离开。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="爆款好人" data-region="中国大陆" data-genre="喜剧/讽刺 网红 道德绑架 流量变现 短视频 反转爽剧" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1854.html" aria-label="观看爆款好人">
+        <span class="poster-frame" style="--cover: url('./54.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">106分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>爆款好人</strong>
+            <em>一个扶老人反被讹的倒霉蛋,靠卖惨一夜涨粉千万,然后他真的开始制造“惨案”。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="纸钞屋第五季" data-region="西班牙" data-genre="动作,犯罪,惊悚 抢劫 最终季 生死决战 闪回叙事 黄金" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1790.html" aria-label="观看纸钞屋第五季">
+        <span class="poster-frame" style="--cover: url('./140.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">34集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>纸钞屋第五季</strong>
+            <em>教授的终极计划迎来尾声,被困银行内的队员们面临断粮和军方强攻的双重绝境。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>西班牙</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="燃情岁月" data-region="中国大陆" data-genre="剧情,年代,家庭 改革风云 国企变迁 两代人 创业 燃系" data-year="2025" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-1720.html" aria-label="观看燃情岁月">
+        <span class="poster-frame" style="--cover: url('./70.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">20集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>燃情岁月</strong>
+            <em>上世纪90年代,三个在钢铁厂大院里长大的兄弟,在时代洪流中选择分道扬镳,最终又在商场上兵戎相见。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="拳王之路" data-region="美国" data-genre="动作/传记 拳击 励志 真实改编" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-807.html" aria-label="观看拳王之路">
+        <span class="poster-frame" style="--cover: url('./57.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">121分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>拳王之路</strong>
+            <em>独臂拳击手用胶皮管子自制假臂,靠“一人两拳”打进了职业联赛。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="寻找自我" data-region="法国" data-genre="剧情,悬疑,科幻 记忆 克隆 身份认同 伦理 法剧" data-year="2025" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-1161.html" aria-label="观看寻找自我">
+        <span class="poster-frame" style="--cover: url('./111.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">21集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>寻找自我</strong>
+            <em>一场车祸后,男人醒来发现自己是克隆体,而“原版”的自己才是制造一切灾难的疯子。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>法国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="沙漠情酋" data-region="美国/摩洛哥" data-genre="爱情/冒险 沙漠 酋长 跨文化爱情 女性觉醒 史诗" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-37.html" aria-label="观看沙漠情酋">
+        <span class="poster-frame" style="--cover: url('./37.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">107分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>沙漠情酋</strong>
+            <em>一位英国贵族女性在撒哈拉被俘,却发现自己爱上了那位囚禁她的柏柏尔人酋长。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国/摩洛哥</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="龙潭虎穴杀人王" data-region="香港" data-genre="动作 功夫 黑帮 卧底 硬核 复仇" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-530.html" aria-label="观看龙潭虎穴杀人王">
+        <span class="poster-frame" style="--cover: url('./80.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">102分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>龙潭虎穴杀人王</strong>
+            <em>一位失忆的顶级杀手流落渔村,被一位固执的退休老警察认出,两人展开了一场关乎尊严的困兽之斗。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="鸽战总动员" data-region="美国" data-genre="动画喜剧 拟人动物 城市战争 废物英雄 屎尿屁幽默" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1446.html" aria-label="观看鸽战总动员">
+        <span class="poster-frame" style="--cover: url('./96.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">130分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>鸽战总动员</strong>
+            <em>一群被城市驱逐的广场鸽,为了夺回家园,用鸟屎、羽毛和“鸽斯拉”战术对抗高科技灭鸽机器。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="拉撒路2025" data-region="美国" data-genre="科幻惊悚 复活 伦理 病毒 末世" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-746.html" aria-label="观看拉撒路2025">
+        <span class="poster-frame" style="--cover: url('./146.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">26集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>拉撒路2025</strong>
+            <em>一种能让死人复活的病毒在全球蔓延,但复活归来的人们,开始记起自己生前的所有痛苦与仇恨。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="咒怨:完结篇" data-region="日本" data-genre="恐怖 诅咒 轮回 终结 伽椰子 佐伯俊雄" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-258.html" aria-label="观看咒怨:完结篇">
+        <span class="poster-frame" style="--cover: url('./108.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">118分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>咒怨:完结篇</strong>
+            <em>咒怨的源头——伽椰子的母亲突然出现,声称可以用“血祭”彻底终结诅咒,代价是所有参与者的性命。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>日本</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="丑小鸭天鹅" data-region="丹麦/瑞典" data-genre="剧情、家庭 芭蕾 代际创伤 北欧冷调 自我认同 姐妹情" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1174.html" aria-label="观看丑小鸭天鹅">
+        <span class="poster-frame" style="--cover: url('./124.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">98分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>丑小鸭天鹅</strong>
+            <em>被剧团淘汰的丑小鸭式女孩,回到天鹅饲养员母亲身边,用一场暴风雪夜救赎了彼此。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>丹麦/瑞典</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="她们的蓝衫时光" data-region="中国台湾" data-genre="历史/家庭 客家文化 女性史诗 横跨百年 蓝染" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-685.html" aria-label="观看她们的蓝衫时光">
+        <span class="poster-frame" style="--cover: url('./85.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">21集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>她们的蓝衫时光</strong>
+            <em>从1920到2020,一座台湾客家蓝染作坊里,五代女性的命运如同缸中的蓝布,被时代反复浸染、晾晒、又沉淀。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国台湾</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="梅花" data-region="中国台湾" data-genre="剧情,历史,家庭 眷村 白色恐怖 刺绣 女性" data-year="2025" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-405.html" aria-label="观看梅花">
+        <span class="poster-frame" style="--cover: url('./105.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">21集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>梅花</strong>
+            <em>1949年随军来台的绣娘梅姑,用一块红布秘密记录下眷村里失踪者的名字,一藏就是四十年。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国台湾</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="荡寇风云" data-region="中国大陆" data-genre="古装/动作/战争 戚继光 倭寇 抗倭史诗 冷兵器战术" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1249.html" aria-label="观看荡寇风云">
+        <span class="poster-frame" style="--cover: url('./49.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">25集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>荡寇风云</strong>
+            <em>戚继光组建戚家军,用“鸳鸯阵”以三千兵力大破两万倭寇,但胜利背后藏着朝堂的致命杀机。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="教练" data-region="中国大陆" data-genre="体育,剧情,励志 女足 草根逆袭 师徒情 热血" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1814.html" aria-label="观看教练">
+        <span class="poster-frame" style="--cover: url('./14.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">30集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>教练</strong>
+            <em>被省队开除的男教练,接手一支连球鞋都凑不齐的山区留守儿童女足队,目标是赢下一场正式比赛。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="欲望城市2" data-region="美国" data-genre="剧情,爱情 女性群像 都市 友情 中年情感" data-year="2025" data-type="TV剧集">
+    <a class="movie-card-link" href="./movie-59.html" aria-label="观看欲望城市2">
+        <span class="poster-frame" style="--cover: url('./59.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">11集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>欲望城市2</strong>
+            <em>二十年后,四位老友重聚纽约,这次她们要处理的不是约会的烦恼,而是更年期的骚动和子女的恋爱。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="我们的当打之年" data-region="中国大陆" data-genre="都市/职场/女性 30+ 职场 友谊 现实向" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1605.html" aria-label="观看我们的当打之年">
+        <span class="poster-frame" style="--cover: url('./105.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">17集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>我们的当打之年</strong>
+            <em>三个30岁的女人在同一家公司竞争总监职位,才发现彼此不仅是同事,还是同一场骗局的受害者。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="电影版地狱少女" data-region="日本" data-genre="悬疑,恐怖,奇幻 都市传说 复仇 审判 心理" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1676.html" aria-label="观看电影版地狱少女">
+        <span class="poster-frame" style="--cover: url('./26.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">108分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>电影版地狱少女</strong>
+            <em>害人终害己,想死一次试试吗?”深夜零点,那个神秘网站再次复活,而这次的目标是一所高中的全班师生。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>日本</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="月夜风高" data-region="中国香港" data-genre="犯罪惊悚 连环杀手 雨夜 盲女 复仇" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-626.html" aria-label="观看月夜风高">
+        <span class="poster-frame" style="--cover: url('./26.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">102分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>月夜风高</strong>
+            <em>一个雨夜,一名盲女在出租屋被杀,楼里六个邻居都听到了动静,却都说“没看见”。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="僧侣" data-region="泰国/法国" data-genre="剧情/奇幻/哲学 佛教 超自然 身份错位 森林寓言" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1540.html" aria-label="观看僧侣">
+        <span class="poster-frame" style="--cover: url('./40.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">116分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>僧侣</strong>
+            <em>一个虔诚的僧侣在山中打坐时,突然看到了自己前七世的所有记忆,每一世他都杀害了同一个人。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>泰国/法国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="铁血昆仑关" data-region="中国大陆" data-genre="战争,历史 抗日 阵地战 兄弟情 惨烈" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-276.html" aria-label="观看铁血昆仑关">
+        <span class="poster-frame" style="--cover: url('./126.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">100分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>铁血昆仑关</strong>
+            <em>一支满编200人的桂军连队,在昆仑关战役中死守高地,最后活下来的,只有一只军号。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="各取应得" data-region="香港" data-genre="犯罪、悬疑 高智商犯罪 黑吃黑 复仇反转" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1471.html" aria-label="观看各取应得">
+        <span class="poster-frame" style="--cover: url('./121.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">113分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>各取应得</strong>
+            <em>一场赃物分配演变为致命陷阱,五名互不信任的劫匪必须在天亮前找出内鬼。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="打板" data-region="中国香港" data-genre="剧情,动作 片场风云 替身 自我救赎" data-year="2025" data-type="电影">
+    <a class="movie-card-link" href="./movie-1824.html" aria-label="观看打板">
+        <span class="poster-frame" style="--cover: url('./24.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">88分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>打板</strong>
+            <em>过气武打明星在片场做替身时摔成瘫痪,灵魂却附在了拍下他最后一镜的打板器上。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="蜗牛的策略" data-region="英国" data-genre="惊悚,犯罪 高智商犯罪 慢热 狙击" data-year="2025" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1966.html" aria-label="观看蜗牛的策略">
+        <span class="poster-frame" style="--cover: url('./16.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">14集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>蜗牛的策略</strong>
+            <em>伦敦警方陷入恐慌:一个神秘的杀手,每次作案都像蜗牛一样慢,却无人能阻止。</em>
+            <span class="meta-row">
+                <span>2025</span>
+                <span>英国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="2012:冰河世纪" data-region="美国" data-genre="科幻,灾难,动作 末日 特效大片 生存 科幻设定 极寒" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1482.html" aria-label="观看2012:冰河世纪">
+        <span class="poster-frame" style="--cover: url('./132.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">94分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>2012:冰河世纪</strong>
+            <em>玛雅预言并未应验,但太阳却意外熄灭,人类在极寒中挣扎求生的同时发现了地心深处的惊天秘密。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="公羊" data-region="冰岛/丹麦" data-genre="剧情/黑色幽默 北欧 兄弟 羊 病毒 固执" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-7.html" aria-label="观看公羊">
+        <span class="poster-frame" style="--cover: url('./7.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">89分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>公羊</strong>
+            <em>为了扑灭羊瘟疫,政府要杀光一个山谷的羊,两兄弟决定偷渡他们的种羊去挪威。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>冰岛/丹麦</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="男极探射灯" data-region="中国香港" data-genre="喜剧/科幻/奇幻 男性更年期 超能力 黑色幽默" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-993.html" aria-label="观看男极探射灯">
+        <span class="poster-frame" style="--cover: url('./93.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">127分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>男极探射灯</strong>
+            <em>中年废柴男意外被神秘探射灯照射后,拥有了“看透女人心”的超能力,生活从此鸡飞狗跳。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="关于艾玛" data-region="法国" data-genre="悬疑,剧情 记忆碎片 身份认同 阿兹海默" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1415.html" aria-label="观看关于艾玛">
+        <span class="poster-frame" style="--cover: url('./65.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">105分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>关于艾玛</strong>
+            <em>一位患有阿兹海默症的老妇人每天都会在笔记本上写下对来访者的印象,却发现自己的记录开始指控他们谋杀了“艾玛”。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>法国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="磨坊女人" data-region="中国大陆" data-genre="剧情/历史 女性 坚韧 年代 命运" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1839.html" aria-label="观看磨坊女人">
+        <span class="poster-frame" style="--cover: url('./39.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">97分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>磨坊女人</strong>
+            <em>民国初年,北方磨坊里的寡妇老板娘,为了养活亡夫的傻弟弟,独自扛起磨盘对抗当地恶霸与乱世兵匪。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="沙漠中的少年" data-region="中国大陆" data-genre="剧情,冒险,家庭 公路片 父子情 沙漠 成长 寻找" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1490.html" aria-label="观看沙漠中的少年">
+        <span class="poster-frame" style="--cover: url('./140.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">102分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>沙漠中的少年</strong>
+            <em>沉默寡言的父亲带着叛逆的儿子穿越塔克拉玛干,只为找到一具二十年前死在沙漠深处的科考队遗骸。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="狙魔女杰第三季" data-region="加拿大" data-genre="奇幻/动作/恐怖 女巫 枪手 末世 血腥暴力" data-year="2024" data-type="电视剧(10集)">
+    <a class="movie-card-link" href="./movie-436.html" aria-label="观看狙魔女杰第三季">
+        <span class="poster-frame" style="--cover: url('./136.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">24集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>狙魔女杰第三季</strong>
+            <em>接第二季末尾,女杰薇丽蒂被拖入地狱后,人间一年过去,她必须从地狱杀回,阻止末日降临。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>加拿大</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="海军突击队" data-region="美国" data-genre="动作/战争 海豹突击队 反恐 营救 枪战" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1492.html" aria-label="观看海军突击队">
+        <span class="poster-frame" style="--cover: url('./142.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">116分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>海军突击队</strong>
+            <em>一支四人的海豹突击队深入也门山区营救人质,却发现整个村庄都是精心布置的陷阱。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="旗袍旗袍" data-region="中国大陆" data-genre="谍战,年代,女性 民国 上海滩 旗袍 双面间谍 美人心计" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1282.html" aria-label="观看旗袍旗袍">
+        <span class="poster-frame" style="--cover: url('./82.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">30集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>旗袍旗袍</strong>
+            <em>上海滩第一名裁缝的真实身份是地下党,而她给日本人做的每一件旗袍里,都缝着一份情报。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="她来自未来" data-region="中国大陆" data-genre="科幻/悬疑 时间旅行 末日拯救 AI 蝴蝶效应 高概念" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1075.html" aria-label="观看她来自未来">
+        <span class="poster-frame" style="--cover: url('./25.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">19集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>她来自未来</strong>
+            <em>2065年的反抗军战士穿越回2024年,任务是阻止AI“女娲”的诞生,却发现“女娲”的创造者正是她的曾祖父。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="他人的领地" data-region="法国" data-genre="悬疑,惊悚,剧情 心理惊悚 入侵 邻里关系 社会批判" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-655.html" aria-label="观看他人的领地">
+        <span class="poster-frame" style="--cover: url('./55.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">113分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>他人的领地</strong>
+            <em>一对中产夫妇搬进富人区,却发现邻居们正通过一场“游戏”,蚕食着他们的房产和尊严。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>法国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="能人冯天贵" data-region="中国大陆" data-genre="农村,喜剧 乡村振兴 返乡创业 农民 致富 轻喜剧" data-year="2024" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-25.html" aria-label="观看能人冯天贵">
+        <span class="poster-frame" style="--cover: url('./25.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">33集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>能人冯天贵</strong>
+            <em>在城市混不下去的“冯大嘴”回到陕北农村,靠一张嘴和一群留守老人,竟折腾出了全国闻名的羊粪有机肥品牌。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="欣喜若狂" data-region="中国大陆" data-genre="黑色喜剧 荒诞 人性 欲望 反转" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1782.html" aria-label="观看欣喜若狂">
+        <span class="poster-frame" style="--cover: url('./132.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">130分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>欣喜若狂</strong>
+            <em>一张价值千万的彩票,让七个素不相识的人在废弃游乐场里陷入疯狂。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="闯入者" data-region="韩国" data-genre="悬疑,惊悚,犯罪 入侵 密室 反转 心理战 阶层" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1502.html" aria-label="观看闯入者">
+        <span class="poster-frame" style="--cover: url('./2.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">90分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>闯入者</strong>
+            <em>豪宅主人通过监控看着一家三口闯入,却不知道他们是20年前被自己赶走的原住户。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="绿叶对根的情意" data-region="中国大陆" data-genre="剧情/家庭/乡村 留守儿童 支教 传承" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1855.html" aria-label="观看绿叶对根的情意">
+        <span class="poster-frame" style="--cover: url('./55.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">113分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>绿叶对根的情意</strong>
+            <em>一棵千年古树即将因修路被砍,一位支教老师带着一帮留守儿童,发起了不可思议的“护根”行动。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="一家大晒" data-region="中国香港" data-genre="喜剧/家庭 春节贺岁 三代同堂 遗产纠纷" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-803.html" aria-label="观看一家大晒">
+        <span class="poster-frame" style="--cover: url('./53.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">93分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>一家大晒</strong>
+            <em>为了争夺父亲留下的公屋,七个儿女在除夕夜上演了一场大型“孝心表演赛”。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="律政英雄新电影版粤语" data-region="中国香港" data-genre="律政剧情 庭审博弈 粤语原声 热血 翻案" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1788.html" aria-label="观看律政英雄新电影版粤语">
+        <span class="poster-frame" style="--cover: url('./138.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">124分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>律政英雄新电影版粤语</strong>
+            <em>九年前证据确凿的弑母案,九年后律师在新发现的日记里,看到了“凶手”写下的:请救我。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="太极粤语" data-region="中国香港" data-genre="动作,剧情,武侠 太极拳 民国 功夫 粤语原声" data-year="2024" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-1087.html" aria-label="观看太极粤语">
+        <span class="poster-frame" style="--cover: url('./37.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">31集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>太极粤语</strong>
+            <em>广州武痴为学太极潜入陈家沟当伙夫,却发现村口卖豆腐的老头才是真宗师。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="人猿泰山" data-region="美国" data-genre="动作/冒险 经典改编 丛林 野性回归 生态" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1369.html" aria-label="观看人猿泰山">
+        <span class="poster-frame" style="--cover: url('./19.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">119分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>人猿泰山</strong>
+            <em>成年后的泰山被带回伦敦社交圈,却发现自己无法忘记丛林,更无法忘记那个呼唤他的声音。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="国道巡航" data-region="中国大陆" data-genre="剧情/公路/犯罪 国道 卡车司机 走私 兄弟情 北方" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1510.html" aria-label="观看国道巡航">
+        <span class="poster-frame" style="--cover: url('./10.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">34集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>国道巡航</strong>
+            <em>一条贯穿北境的国道线上,两代卡车司机为守护这条“生命线”与跨国走私集团展开生死竞速。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="与狼共伍" data-region="德国" data-genre="剧情/冒险 狼群抚养 野性回归 文明冲突" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-949.html" aria-label="观看与狼共伍">
+        <span class="poster-frame" style="--cover: url('./49.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">107分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>与狼共伍</strong>
+            <em>二战孤儿被狼群养大,十五年后被人类找回,但他已经分不清自己是人还是狼。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>德国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="诚忠堂" data-region="中国" data-genre="历史商战 晋商 家族恩怨 民国 宅斗" data-year="2024" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-598.html" aria-label="观看诚忠堂">
+        <span class="poster-frame" style="--cover: url('./148.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">18集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>诚忠堂</strong>
+            <em>民国初年,乔家少东家从西洋归来,却发现自家银库藏的并非白银而是革命党。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="沼泽王的女儿" data-region="北欧" data-genre="悬疑犯罪 北欧黑暗 家族秘密 罪与罚 女性复仇" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1231.html" aria-label="观看沼泽王的女儿">
+        <span class="poster-frame" style="--cover: url('./31.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">113分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>沼泽王的女儿</strong>
+            <em>小镇沼泽里挖出一具26年前的少女骸骨,她的女儿如今成了负责此案的女警。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>北欧</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="闪电战" data-region="英国" data-genre="战争、剧情、历史 伦敦轰炸 母子 地下铁道 平民" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1864.html" aria-label="观看闪电战">
+        <span class="poster-frame" style="--cover: url('./64.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">128分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>闪电战</strong>
+            <em>9岁黑人男孩在伦敦大轰炸中与母亲走散,他必须独自穿过燃着大火的城区和充满敌意的防空洞。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>英国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="别逼我动手" data-region="中国大陆" data-genre="喜剧,动作 废柴 逆袭 扮猪吃老虎 东北喜剧 功夫" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-462.html" aria-label="观看别逼我动手">
+        <span class="poster-frame" style="--cover: url('./12.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">106分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>别逼我动手</strong>
+            <em>一个自称“佛系废柴”的东北搓澡工,被误认为是顶级杀手,被各方势力追杀,他只能被迫“动一动手”。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="狼袭草原" data-region="中国大陆" data-genre="动作/冒险/西部 草原 狼群 复仇 生存 民族" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1169.html" aria-label="观看狼袭草原">
+        <span class="poster-frame" style="--cover: url('./119.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">111分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>狼袭草原</strong>
+            <em>一场沙暴后,狼群血洗了游牧部落,唯一的幸存少年必须带着狼王的幼崽穿越百里荒漠求生。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="变种毒蝎" data-region="美国" data-genre="科幻,恐怖,灾难 核辐射 巨型蝎子 沙漠小镇 生存 B级片" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1521.html" aria-label="观看变种毒蝎">
+        <span class="poster-frame" style="--cover: url('./21.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">127分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>变种毒蝎</strong>
+            <em>核废料泄露后,沙漠里出现了3米长的毒蝎,而小镇正在举办狂欢节。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="巴士阿叔事件" data-region="中国香港" data-genre="剧情/社会 真实事件改编 网络暴力 小人物 港味" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1381.html" aria-label="观看巴士阿叔事件">
+        <span class="poster-frame" style="--cover: url('./31.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">107分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>巴士阿叔事件</strong>
+            <em>2006年“巴士阿叔”骂人视频的主角,在成为网络红人后的第十年,试图找回当年那个被他骂的年轻人。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="速战" data-region="美国" data-genre="动作/惊悚 飞车 复仇 硬汉 极速" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-468.html" aria-label="观看速战">
+        <span class="poster-frame" style="--cover: url('./18.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">100分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>速战</strong>
+            <em>为了救出被绑匪塞进出租车后备箱的女儿,父亲必须在一夜之间横跨整座城市。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="造梦师" data-region="中国大陆" data-genre="科幻,悬疑,爱情 梦境入侵 记忆删除 软科幻 都市 心理学" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1102.html" aria-label="观看造梦师">
+        <span class="poster-frame" style="--cover: url('./52.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">122分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>造梦师</strong>
+            <em>一个能潜入他人梦境删除记忆的造梦师,接手了一个要删除自己初恋的诡异订单。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="雷德上校" data-region="韩国" data-genre="动作/悬疑/政治 朝鲜谍战 双面间谍 军队腐败" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1875.html" aria-label="观看雷德上校">
+        <span class="poster-frame" style="--cover: url('./75.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">35集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>雷德上校</strong>
+            <em>朝鲜人民军最忠诚的雷德上校,实为韩国潜伏三十年的“彩虹”间谍,但一次暗杀令他开始质疑自己的信仰。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>韩国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="灰烬之地" data-region="北欧/冰岛" data-genre="科幻/剧情/后末日 火山灰 生态崩溃 自闭症 传教 沉默" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1525.html" aria-label="观看灰烬之地">
+        <span class="poster-frame" style="--cover: url('./25.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">107分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>灰烬之地</strong>
+            <em>全球火山爆发后,一名自闭症女孩和企图自杀的神父,在灰烬中寻找一盘能“重启世界”的种子磁带。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>北欧/冰岛</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="坏账银行第一季" data-region="德国" data-genre="剧情/犯罪/金融 金融犯罪 职场黑幕 复仇 高智商" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1245.html" aria-label="观看坏账银行第一季">
+        <span class="poster-frame" style="--cover: url('./45.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">21集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>坏账银行第一季</strong>
+            <em>被银行抛弃的精英女交易员,用一手法务漏洞,反向做空老东家。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>德国</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="出墙红杏两家春" data-region="中国大陆" data-genre="剧情,爱情 农村 女性 伦理 时代变迁" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1457.html" aria-label="观看出墙红杏两家春">
+        <span class="poster-frame" style="--cover: url('./107.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">111分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>出墙红杏两家春</strong>
+            <em>90年代农村,两个男人共享一妻,却在时代洪流中活成了彼此的家人。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="恐怖怪谭" data-region="加拿大" data-genre="恐怖/科幻 口耳相传 病毒式传播 集体癔症" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1669.html" aria-label="观看恐怖怪谭">
+        <span class="poster-frame" style="--cover: url('./19.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">107分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>恐怖怪谭</strong>
+            <em>一个只能在手机电量低于5%时接听的都市传说电话,让全城青少年开始主动耗尽电池,然后失踪。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>加拿大</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="危城谜案" data-region="中国大陆" data-genre="刑侦悬疑 连环杀人 小城故事 警察 二十年追凶" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-1529.html" aria-label="观看危城谜案">
+        <span class="poster-frame" style="--cover: url('./29.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">25集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>危城谜案</strong>
+            <em>小城接连失踪女孩,唯一活下来的那个成了哑巴,她用手语告诉警察:凶手是警察。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="生命中的岛屿" data-region="日本" data-genre="剧情,家庭,治愈 孤岛 临终关怀 三代人 慢节奏 治愈系日剧" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-688.html" aria-label="观看生命中的岛屿">
+        <span class="poster-frame" style="--cover: url('./88.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">24集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>生命中的岛屿</strong>
+            <em>一座没有医院的偏远小岛,一个从东京逃回来的失败医生,和七个等死的老人。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>日本</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="五月碧云天" data-region="中国台湾" data-genre="剧情/家庭/文艺 乡土文学 老兵 食安问题 父子和解" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1392.html" aria-label="观看五月碧云天">
+        <span class="poster-frame" style="--cover: url('./42.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">88分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>五月碧云天</strong>
+            <em>一位患有阿尔茨海默症的外省老兵,为了给孙女做一顿“最安全的饭”,执意要在城市废墟中开垦一片稻田。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国台湾</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="超级吉普赛流氓" data-region="英国/罗马尼亚" data-genre="剧情/犯罪/运动 地下拳击 吉普赛文化 底层逆袭" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1607.html" aria-label="观看超级吉普赛流氓">
+        <span class="poster-frame" style="--cover: url('./107.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">105分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>超级吉普赛流氓</strong>
+            <em>吉普赛少年靠街头裸拳打黑市,只为给母亲治病,却卷入了欧洲地下拳王的阴谋。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>英国/罗马尼亚</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="一颗颗眼泪都是爱" data-region="中国大陆" data-genre="家庭/剧情/伦理 苦情 寻亲 时代悲歌 女性" data-year="2024" data-type="剧集">
+    <a class="movie-card-link" href="./movie-344.html" aria-label="观看一颗颗眼泪都是爱">
+        <span class="poster-frame" style="--cover: url('./44.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">16集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>一颗颗眼泪都是爱</strong>
+            <em>八十年代,一名护士因抱错孩子导致两个家庭错位,她用三十年的眼泪偿还这份心债。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="神鬼奇兵:失落的宝藏" data-region="美国/中国大陆" data-genre="动作/冒险/奇幻 寻宝 二战秘史 超自然 团队作战" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-1541.html" aria-label="观看神鬼奇兵:失落的宝藏">
+        <span class="poster-frame" style="--cover: url('./41.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">123分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>神鬼奇兵:失落的宝藏</strong>
+            <em>一份从南极冰层挖出的纳粹日记,指引各国奇兵寻找能控制天气的“雷神之锤”碎片。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国/中国大陆</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="精武五虎粤语" data-region="中国香港" data-genre="动作/年代/武侠 精武门 师兄弟 粤语原声 打斗 民族气节" data-year="2024" data-type="电视剧">
+    <a class="movie-card-link" href="./movie-1192.html" aria-label="观看精武五虎粤语">
+        <span class="poster-frame" style="--cover: url('./142.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">24集全</span>
+        </span>
+        <span class="movie-info">
+            <strong>精武五虎粤语</strong>
+            <em>精武门被灭门二十年后,五位师父的遗孤长大,有人当了汉奸,有人成了英雄,他们的比武场在时代风雨中裂开。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>中国香港</span>
+            </span>
+        </span>
+    </a>
+</article>
+<article class="movie-card js-card" data-title="红字" data-region="美国" data-genre="悬疑/犯罪/心理 连环杀手 圣经符号 女警探" data-year="2024" data-type="电影">
+    <a class="movie-card-link" href="./movie-631.html" aria-label="观看红字">
+        <span class="poster-frame" style="--cover: url('./31.jpg');">
+            <span class="poster-shade"></span>
+            <span class="play-mark">▶</span>
+            <span class="duration-badge">89分钟</span>
+        </span>
+        <span class="movie-info">
+            <strong>红字</strong>
+            <em>一个连环杀手在每具尸体旁留下一封以“红字”为题的加密信,女警探发现这竟是她失踪二十年的父亲的笔迹。</em>
+            <span class="meta-row">
+                <span>2024</span>
+                <span>美国</span>
+            </span>
+        </span>
+    </a>
+</article>
+                </div>
+                <div class="empty-state" data-empty-state>没有找到匹配的影片</div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span class="brand-icon">▶</span>
+                <div>
+                    <strong>影视在线</strong>
+                    <p>影视在线是专业的高清影视内容平台，提供海量电影、电视剧、综艺节目在线观看服务，涵盖剧情片、爱情片、动作片、喜剧片等各类精彩影片，高清流畅播放，为您带来优质的观影体验。</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="./category-hot-movies.html">电影热播</a><a href="./category-series.html">剧集更新</a><a href="./category-china.html">国产专区</a><a href="./category-japan-korea.html">日韩精选</a><a href="./category-euro-america.html">欧美佳片</a><a href="./category-suspense.html">悬疑剧场</a><a href="./category-action.html">动作影院</a><a href="./category-romance.html">爱情片库</a>
+            </div>
+            <p class="copyright">© 2026 影视在线 · 高清影视内容平台</p>
+        </div>
+    </footer>
+    <script src="./assets/site.js"></script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

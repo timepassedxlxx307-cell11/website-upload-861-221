@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>站内搜索-1080P影院</title>
+  <meta name="description" content="搜索1080P影院全站影片，支持片名、类型、地区、年份、标签和剧情关键词检索。">
+  <meta name="keywords" content="热播国产剧高清全集在线_免费电影观看网站-1080P影院,国产,视频,免费,在线观看,高清,影视大全,搜索,影片搜索">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="site-logo" href="index.html" aria-label="1080P影院">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">1080P影院</span>
+    </a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="index.html">首页</a>
+      <a href="categories.html">分类</a>
+      <a href="ranking.html">排行榜</a>
+      <a href="category-guochan-ju.html">国产剧场</a>
+      <a href="category-gaoqing-dianying.html">高清电影</a>
+      <a href="category-oumei-zhuanqu.html">欧美专区</a>
+      <a href="category-rihan-jingxuan.html">日韩精选</a>
+    </nav>
+    <form class="header-search" action="search.html" method="get">
+      <label class="sr-only" for="header-search-0">搜索影片</label>
+      <input id="header-search-0" name="q" type="search" placeholder="搜索影片...">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="mobile-menu-button" type="button" aria-label="打开导航" data-menu-toggle>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <nav class="mobile-nav" aria-label="移动导航" data-mobile-menu>
+    <a href="index.html">首页</a>
+    <a href="categories.html">分类总览</a>
+    <a href="ranking.html">排行榜</a>
+      <a href="category-guochan-ju.html">国产剧场</a>
+      <a href="category-gaoqing-dianying.html">高清电影</a>
+      <a href="category-oumei-zhuanqu.html">欧美专区</a>
+      <a href="category-rihan-jingxuan.html">日韩精选</a>
+    <form action="search.html" method="get">
+      <input name="q" type="search" placeholder="搜索影片...">
+      <button type="submit">搜索</button>
+    </form>
+  </nav>
+</header>
+<main>
+  <section class="page-hero search-hero">
+    <div>
+      <span class="section-eyebrow">Search</span>
+      <h1>站内搜索</h1>
+      <p>输入片名、地区、类型、标签或剧情关键词，快速查找全站影片。</p>
+    </div>
+  </section>
+  <section class="section search-page-section">
+    <form class="search-panel" data-search-page-form>
+      <input name="q" type="search" placeholder="搜索影片、标签、剧情..." data-search-page-input>
+      <button type="submit">搜索</button>
+    </form>
+    <div class="search-status" data-search-status>请输入关键词开始搜索。</div>
+    <div class="movie-grid" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-column footer-brand">
+      <a class="site-logo footer-logo" href="index.html">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">1080P影院</span>
+      </a>
+      <p>提供热播国产剧高清全集在线观看及免费电影观看服务，涵盖当下最受欢迎的电视剧集和电影作品，更新及时，提供高清流畅播放体验。</p>
+    </div>
+    <div class="footer-column">
+      <h2>影片分类</h2>
+      <ul>
+        <li><a href="category-guochan-ju.html">国产剧场</a></li>
+        <li><a href="category-gaoqing-dianying.html">高清电影</a></li>
+        <li><a href="category-oumei-zhuanqu.html">欧美专区</a></li>
+        <li><a href="category-rihan-jingxuan.html">日韩精选</a></li>
+        <li><a href="category-gangtai-yingyuan.html">港台影院</a></li>
+        <li><a href="category-xuanyi-jingsong.html">悬疑惊悚</a></li>
+        <li><a href="category-aiqing-xiju.html">爱情喜剧</a></li>
+        <li><a href="category-dongman-zongyi.html">动漫综艺</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>站内导航</h2>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">分类总览</a></li>
+        <li><a href="ranking.html">热度排行榜</a></li>
+        <li><a href="search.html">搜索影片</a></li>
+      </ul>
+    </div>
+    <div class="footer-column">
+      <h2>观看体验</h2>
+      <p>支持电脑和手机访问，详情页播放器绑定 M3U8 播放源，并根据浏览器能力启用 HLS 播放。</p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 1080P影院 · 高清影视内容索引</p>
+  </div>
+</footer>
+  <script src="assets/js/site.js" defer></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
